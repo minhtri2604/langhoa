@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* app */
+.app{
+    display: flex;
+    justify-content: center;
+}
+/* banner */
+
+.banner{
+    background-image: url("../images/logo.jpeg");
+    width: 1000px;
+    height: 134px;
+}
+
+/* header-item */
+
+.header-item{
+    border-left: 1px solid #fff;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.header-item a{
+    font-size: 8px;
+    font-weight: 700;
+
+}
+.header-item:hover{
+    background-color: #cdebfd;
+}
+.header-item:hover a{
+    color: #003399;
+}
+
